@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="facebook_app_id">1034385846656502</string>
+    <string name="share">Share</string>
+
+    <string name="app_name">DigiBuddy</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="drawer_open">Slider Menu Opened</string>
+    <string name="drawer_close">Slider Menu Closed</string>
+
+    <!-- Nav Drawer Menu Items -->
+    <string-array name="nav_drawer_items">
+        <item>Home</item>
+        <item>Exercise</item>
+        <item>Food Intake</item>
+        <item>Sleep</item>
+        <item>Friends</item>
+        <item>Account</item>
+        <item>Logout</item>
+    </string-array>
+
+
+    <string name="Breakfast_prompt">Choose here</string>
+    <item name="databaseVersion" format="integer" type="string">1</item>
+
+    <string-array name="Breakfast_arrays">
+        <item>-select-</item>
+        <item>Bagel</item>
+        <item>Sandwich</item>
+        <item>Pancake</item>
+        <item>Coffee</item>
+        <item>Pasta</item>
+
+    </string-array>
+    <string name="Lunch_prompt">Choose here</string>
+    <string-array name="Lunch_arrays">
+        <item>-select-</item>
+        <item>Chicken</item>
+        <item>Rice</item>
+        <item>Noodles</item>
+        <item>Roti</item>
+        <item>Turkey</item>
+
+    </string-array>
+    <string name="Dinner_prompt">Choose here</string>
+    <string-array name="Dinner_arrays">
+        <item>-select-</item>
+        <item>Salad</item>
+        <item>Chicken with Maccaroni</item>
+        <item>Cornbread</item>
+        <item>Pizza</item>
+        <item>Potato wedges</item>
+
+    </string-array>
+
+    <!-- Nav Drawer List Item Icons -->
+    <!-- Keep them in order as the titles are in -->
+    <array name="nav_drawer_icons">
+        <item>@drawable/ic_home</item>
+        <item>@drawable/ic_exercise</item>
+        <item>@drawable/ic_food</item>
+        <item>@drawable/ic_sleep</item>
+        <item>@drawable/ic_friends</item>
+        <item>@drawable/ic_account</item>
+        <item>@drawable/ic_logout</item>
+    </array>
+
+    <!-- Content Description -->
+    <string name="desc_list_item_icon">Item Icon</string>
+
+</resources>

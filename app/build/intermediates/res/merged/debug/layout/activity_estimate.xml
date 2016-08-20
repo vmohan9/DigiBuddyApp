@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/reportbg"
+    tools:context="info.androidhive.slidingmenu.Estimate">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Estimation "
+        android:id="@+id/textView29"
+        android:textSize="40dp"
+        android:textColor="@color/white"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="107dp"
+        android:layout_marginStart="107dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="The ideal step count set for you:"
+        android:id="@+id/textView30"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        android:layout_below="@+id/textView29"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="31dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Medium Text"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        android:id="@+id/idealstep_val"
+        android:layout_alignTop="@+id/textView30"
+        android:layout_toRightOf="@+id/textView30"
+        android:layout_toEndOf="@+id/textView30" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="The step count taken by you:"
+        android:id="@+id/textView32"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        android:layout_below="@+id/idealstep_val"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Medium Text"
+        android:id="@+id/stepcount_val"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        android:layout_marginTop="61dp"
+        android:layout_below="@+id/idealstep_val"
+        android:layout_alignLeft="@+id/foodcal_val"
+        android:layout_alignStart="@+id/foodcal_val" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Steps to be taken for the next day:"
+        android:id="@+id/textView34"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        android:layout_alignBottom="@+id/stepcount_val"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_toLeftOf="@+id/stepcount_val"
+        android:layout_toStartOf="@+id/stepcount_val" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Medium Text"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        android:id="@+id/stepnext_val"
+        android:layout_below="@+id/idealstep_val"
+        android:layout_alignRight="@+id/idealstep_val"
+        android:layout_alignEnd="@+id/idealstep_val" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Calories spent during excercise:"
+        android:id="@+id/textView36"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        android:layout_below="@+id/textView34"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/textView34"
+        android:layout_alignEnd="@+id/textView34" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Medium Text"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        android:id="@+id/exercise_val"
+        android:layout_above="@+id/foodcal_val"
+        android:layout_toRightOf="@+id/textView40"
+        android:layout_toEndOf="@+id/textView40" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Calorie intake through food:"
+        android:id="@+id/textView38"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        android:layout_below="@+id/textView36"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Medium Text"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        android:id="@+id/foodcal_val"
+        android:layout_above="@+id/textView40"
+        android:layout_alignLeft="@+id/sleephours_logged"
+        android:layout_alignStart="@+id/sleephours_logged" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Calories to be burnt for next day:"
+        android:id="@+id/textView40"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        android:layout_marginTop="33dp"
+        android:layout_below="@+id/textView38"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Medium Text"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        android:id="@+id/nextday_cal"
+        android:layout_alignTop="@+id/textView40"
+        android:layout_toRightOf="@+id/textView40"
+        android:layout_toEndOf="@+id/textView40" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Number of Sleep Hours to be logged:"
+        android:id="@+id/textView42"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        android:layout_below="@+id/nextday_cal"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/textView38"
+        android:layout_alignEnd="@+id/textView38" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Medium Text"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        android:id="@+id/sleephours_logged"
+        android:layout_alignBottom="@+id/textView42"
+        android:layout_alignLeft="@+id/stepnext_val"
+        android:layout_alignStart="@+id/stepnext_val" />
+</RelativeLayout>
